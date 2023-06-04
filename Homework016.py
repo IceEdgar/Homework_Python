@@ -5,5 +5,6 @@ def rev(n):
     rev(n - 1)
     return print(k)
 
+
 n = int(input('Введите количество элементов: '))
 rev(n)

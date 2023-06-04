@@ -1,8 +1,9 @@
-def pos(number):
-    if number == 0:
+def rev(n):
+    if n == 0:
         return ""
-    x=input("Введите число: ")
-    return pos(number-1)+(x)+(' ')
+    k = input("Введите число: ")
+    return rev(n-1)+(k)+(' ')
 
-number = int(input("Введите количество элементов: "))
-print(pos(number))
+
+n = int(input("Введите количество элементов: "))
+print(rev(n))
